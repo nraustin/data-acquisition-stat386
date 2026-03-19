@@ -9,7 +9,7 @@ The purpose of this project is to create an original dataset of monthly labor ma
 ## Repository Structure
 
 - `src/` - scripts for API requests and data cleaning  
-- `data/` - both raw and final processd data.
+- `data/` - final processd data.
 - `notebooks/` - exploratory processing notebooks  
 - `README.md` - repository overview  
 
