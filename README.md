@@ -17,15 +17,16 @@ The purpose of this project is to create an original dataset of monthly labor ma
 
 Data are collected from the BLS Public Data API, primarily using state-level Local Area Unemployment Statistics.
 
-## Planned Variables
+## Variables
 
 - state
 - year
-- month
-- unemployment_rate
-- unemployment
-- employment
-- labor_force
+- unemployment rate
+- hourly earnings
+- industry
+- CPI
+- wage growth
+- real wage index
 
 ## Workflow
 
@@ -33,7 +34,3 @@ Data are collected from the BLS Public Data API, primarily using state-level Loc
 2. Save raw responses  
 3. Clean and merge the data  
 4. Export a final CSV for analysis  
-
-## Ethics
-
-This project uses a documented public API and only collects public aggregate statistics. No personal or private data are involved.
